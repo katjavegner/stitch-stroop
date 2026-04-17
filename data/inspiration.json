@@ -1,0 +1,50 @@
+{
+  "lastUpdated": "2026-04-17",
+  "items": [
+    {
+      "id": "devlieg-studio",
+      "name": "devlieg.studio",
+      "handle": "@devlieg.studio",
+      "platforms": [
+        {"type": "website", "url": "https://devlieg.studio/"},
+        {"type": "instagram", "url": "https://www.instagram.com/devlieg.studio"}
+      ],
+      "description": "Chat member — studio practice and thoughtful personal makes.",
+      "group": "members",
+      "image": null
+    },
+    {
+      "id": "chat-member-2",
+      "name": "Naai & Zo",
+      "handle": "@naaienzo",
+      "platforms": [
+        {"type": "instagram", "url": "https://www.instagram.com/naaienzo"}
+      ],
+      "description": "Chat member — documenting everyday makes with a focus on sustainable fabrics.",
+      "group": "members",
+      "image": null
+    },
+    {
+      "id": "gerties-blog",
+      "name": "Gertie's New Blog for Better Sewing",
+      "handle": "Gertie",
+      "platforms": [
+        {"type": "website", "url": "https://blogforbettersewing.com/"}
+      ],
+      "description": "Vintage-inspired dressmaking, in-depth technique posts, and pattern reviews.",
+      "group": "inspo",
+      "image": null
+    },
+    {
+      "id": "male-pattern-boldness",
+      "name": "Male Pattern Boldness",
+      "handle": "Peter",
+      "platforms": [
+        {"type": "website", "url": "https://malepatternboldness.blogspot.com/"}
+      ],
+      "description": "Long-running sewing blog with candid reviews, fitting tips, and the occasional denim project.",
+      "group": "inspo",
+      "image": null
+    }
+  ]
+}

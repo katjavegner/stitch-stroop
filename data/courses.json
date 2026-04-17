@@ -1,0 +1,25 @@
+{
+  "lastUpdated": "2026-04-17",
+  "items": [
+    {
+      "id": "rechtesteek",
+      "name": "Rechtesteek",
+      "city": "Haarlem",
+      "languages": ["RU", "NL"],
+      "schedule": "Friday mornings, by order",
+      "description": "Russian-speaking owner, small-group classes. Friendly atmosphere for all levels.",
+      "website": "https://rechtesteek.nl/products/naailes-vrijdag-ochtend-per-order",
+      "online": false
+    },
+    {
+      "id": "naai-atelier-amsterdam",
+      "name": "Naai Atelier Amsterdam",
+      "city": "Amsterdam",
+      "languages": ["EN", "NL"],
+      "schedule": "Weekend workshops and weekday evening classes",
+      "description": "Well-equipped studio offering beginner through advanced dressmaking. Machine hire available.",
+      "website": "https://naaiatelier.nl/",
+      "online": false
+    }
+  ]
+}

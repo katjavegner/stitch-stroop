@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sewing Courses — Stitch &amp; Stroop</title>
+  <meta name="description" content="Sewing classes and workshops in the Netherlands, in Dutch, English, and Russian.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="site-nav"></div>
+
+  <main>
+    <div class="container">
+
+      <header class="page-header">
+        <span class="eyebrow">Learn &middot; workshops &middot; studios</span>
+        <h1>Sewing courses</h1>
+        <p class="subtitle">Classes and workshops for all levels, across the Netherlands.</p>
+      </header>
+
+      <!-- City filters -->
+      <div id="city-filters" class="filter-chips" role="group" aria-label="Filter by city"></div>
+
+      <!-- Language filters -->
+      <div id="lang-filters" class="filter-chips" role="group" aria-label="Filter by language"></div>
+
+      <!-- Course cards -->
+      <div id="course-list" aria-live="polite" aria-label="Course listings"></div>
+
+
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <noscript>
+    <div class="container">
+      <div class="noscript-warning">
+        Course listings require JavaScript. Please enable JavaScript in your browser to view this page.
+      </div>
+    </div>
+  </noscript>
+
+  <script type="module" src="js/nav.js"></script>
+  <script type="module" src="js/courses.js"></script>
+
+</body>
+</html>

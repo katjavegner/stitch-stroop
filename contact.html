@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Stitch &amp; Stroop</title>
+  <meta name="description" content="Share a fabric shop find, suggest a course, or ask a question. Help keep Stitch &amp; Stroop useful for everyone.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="site-nav"></div>
+
+  <main>
+    <div class="container">
+
+      <header class="page-header">
+        <span class="eyebrow">Contribute &middot; suggest &middot; report</span>
+        <h1>Get in touch</h1>
+        <p class="subtitle">Share a find or ask a question.</p>
+      </header>
+
+      <div class="form-section">
+
+        <!-- Thank you message (hidden until form submitted) -->
+        <div id="thank-you" class="thank-you" hidden aria-live="polite">
+          <h2>Thank you!</h2>
+          <p>Your message has been received. We'll review it and update the site if it's a good fit.</p>
+          <p style="margin-top: var(--space-md);">
+            <a href="index.html" class="btn btn-secondary btn-sm">Back to home</a>
+          </p>
+        </div>
+
+        <!-- Contact form -->
+        <form id="contact-form" action="https://formspree.io/f/xzdyrzdl" method="POST" novalidate>
+
+          <!-- Always-visible fields -->
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required placeholder="e.g. Anna" autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="email">
+            <span class="form-hint">We'll only use this to follow up if we have questions.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+              <option value="">— Select a topic —</option>
+              <option value="suggest-store">Suggest a new store</option>
+              <option value="suggest-course">Suggest a new course</option>
+              <option value="suggest-pattern">Suggest a pattern site</option>
+              <option value="suggest-inspo">Suggest an inspiration link</option>
+              <option value="add-glossary">Add a glossary term</option>
+              <option value="report-issue">Report a broken link or outdated info</option>
+              <option value="general">General question</option>
+            </select>
+          </div>
+
+          <!-- Fieldset: Suggest a store -->
+          <fieldset id="fieldset-store" hidden>
+            <div class="form-group">
+              <label for="store-name">Shop name</label>
+              <input type="text" id="store-name" name="store_name" placeholder="e.g. Stoffen Stad Amsterdam">
+            </div>
+            <div class="form-group">
+              <label for="store-city">City</label>
+              <input type="text" id="store-city" name="store_city" placeholder="e.g. Amsterdam">
+            </div>
+            <div class="form-group">
+              <label for="store-website">Website (optional)</label>
+              <input type="url" id="store-website" name="store_website" placeholder="https://…">
+            </div>
+            <div class="form-group">
+              <label for="store-notes">Notes</label>
+              <textarea id="store-notes" name="store_notes" placeholder="What makes it worth visiting? Any tips on opening hours, parking, payment?"></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Fieldset: Suggest a course -->
+          <fieldset id="fieldset-course" hidden>
+            <div class="form-group">
+              <label for="course-name">Course or studio name</label>
+              <input type="text" id="course-name" name="course_name" placeholder="e.g. Atelier de Naald">
+            </div>
+            <div class="form-group">
+              <label for="course-city">City</label>
+              <input type="text" id="course-city" name="course_city" placeholder="e.g. Rotterdam">
+            </div>
+            <div class="form-group">
+              <label for="course-website">Website</label>
+              <input type="url" id="course-website" name="course_website" placeholder="https://…">
+            </div>
+            <div class="form-group">
+              <label for="course-lang">Languages taught</label>
+              <input type="text" id="course-lang" name="course_languages" placeholder="e.g. Dutch, English">
+            </div>
+            <div class="form-group">
+              <label for="course-notes">Notes</label>
+              <textarea id="course-notes" name="course_notes" placeholder="Schedule, skill level, anything else useful"></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Fieldset: Suggest a pattern site -->
+          <fieldset id="fieldset-pattern" hidden>
+            <div class="form-group">
+              <label for="pattern-name">Site or brand name</label>
+              <input type="text" id="pattern-name" name="pattern_name" placeholder="e.g. Deer &amp; Doe">
+            </div>
+            <div class="form-group">
+              <label for="pattern-url">URL</label>
+              <input type="url" id="pattern-url" name="pattern_url" placeholder="https://…">
+            </div>
+            <div class="form-group">
+              <label for="pattern-notes">Notes</label>
+              <textarea id="pattern-notes" name="pattern_notes" placeholder="Languages, accepted payment methods, style of patterns, anything else to know"></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Fieldset: Suggest an inspiration link -->
+          <fieldset id="fieldset-inspo" hidden>
+            <div class="form-group">
+              <label for="inspo-name">Name or handle</label>
+              <input type="text" id="inspo-name" name="inspo_name" placeholder="e.g. @sewingwithsun">
+            </div>
+            <div class="form-group">
+              <label for="inspo-url">Link (Instagram, website, YouTube…)</label>
+              <input type="url" id="inspo-url" name="inspo_url" placeholder="https://…">
+            </div>
+            <div class="form-group">
+              <label for="inspo-notes">Why do you love them?</label>
+              <textarea id="inspo-notes" name="inspo_notes" placeholder="What do they make, what's special about their work?"></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Fieldset: Add a glossary term -->
+          <fieldset id="fieldset-glossary" hidden>
+            <div class="form-group">
+              <label for="gloss-nl">Dutch term</label>
+              <input type="text" id="gloss-nl" name="gloss_nl" placeholder="e.g. Elastiek">
+            </div>
+            <div class="form-group">
+              <label for="gloss-en">English translation</label>
+              <input type="text" id="gloss-en" name="gloss_en" placeholder="e.g. Elastic">
+            </div>
+            <div class="form-group">
+              <label for="gloss-ru">Russian translation (optional)</label>
+              <input type="text" id="gloss-ru" name="gloss_ru" placeholder="e.g. Резинка">
+            </div>
+            <div class="form-group">
+              <label for="gloss-category">Category</label>
+              <select id="gloss-category" name="gloss_category">
+                <option value="">— Choose —</option>
+                <option value="fibre">Fibres</option>
+                <option value="weave">Weaves</option>
+                <option value="notion">Notions</option>
+                <option value="technique">Techniques</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="gloss-note">Note (optional)</label>
+              <textarea id="gloss-note" name="gloss_note" placeholder="Any useful context or tips about this term"></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Fieldset: Report issue -->
+          <fieldset id="fieldset-issue" hidden>
+            <div class="form-group">
+              <label for="issue-page">Which page?</label>
+              <select id="issue-page" name="issue_page">
+                <option value="">— Choose —</option>
+                <option value="stores">Fabric Shops</option>
+                <option value="courses">Courses</option>
+                <option value="patterns">Patterns</option>
+                <option value="inspiration">Inspiration</option>
+                <option value="glossary">Glossary</option>
+                <option value="faq">Tips / FAQ</option>
+                <option value="other">Other / not sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="issue-description">What's wrong?</label>
+              <textarea id="issue-description" name="issue_description" placeholder="e.g. The website link for X shop is broken. / The opening hours for Y are out of date."></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Fieldset: General question -->
+          <fieldset id="fieldset-general" hidden>
+            <div class="form-group">
+              <label for="general-message">Your message</label>
+              <textarea id="general-message" name="general_message" rows="5" placeholder="What's on your mind?"></textarea>
+            </div>
+          </fieldset>
+
+          <!-- Submit -->
+          <div class="form-group" style="margin-top: var(--space-xl);">
+            <button type="submit" id="submit-btn" class="btn btn-primary">Send message</button>
+          </div>
+
+        </form>
+
+      </div><!-- end .form-section -->
+
+      <div style="height: var(--space-2xl);"></div>
+
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script type="module" src="js/nav.js"></script>
+  <script type="module" src="js/contact.js"></script>
+
+</body>
+</html>

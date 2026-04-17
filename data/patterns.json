@@ -1,0 +1,35 @@
+{
+  "lastUpdated": "2026-04-17",
+  "items": [
+    {
+      "id": "vikisews",
+      "name": "Vikisews",
+      "languages": ["RU", "EN"],
+      "currency": "EUR/USD",
+      "foreignCards": true,
+      "description": "Russian indie pattern company with sleek minimalist designs. English site accepts foreign cards.",
+      "website": "https://vikisews.com/",
+      "categories": ["womenswear"]
+    },
+    {
+      "id": "ikatee",
+      "name": "Ikatee",
+      "languages": ["FR", "EN"],
+      "currency": "EUR",
+      "foreignCards": true,
+      "description": "French indie patterns for children and women. Clean style, well-graded sizes.",
+      "website": "https://ikatee.fr/",
+      "categories": ["womenswear", "kidswear"]
+    },
+    {
+      "id": "naaipatronen-nl",
+      "name": "Naaipatronen.nl",
+      "languages": ["NL"],
+      "currency": "EUR",
+      "foreignCards": false,
+      "description": "Dutch-language patterns for garments and accessories. iDEAL payment — Dutch bank accounts only.",
+      "website": "https://naaipatronen.nl/",
+      "categories": ["womenswear", "accessories"]
+    }
+  ]
+}

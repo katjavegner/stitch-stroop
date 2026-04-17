@@ -1,0 +1,24 @@
+{
+  "lastUpdated": "2026-04-17",
+  "items": [
+    {"id": "katoen", "nl": "Katoen", "en": "Cotton", "ru": "Хлопок", "category": "fibre", "note": "Breathable, takes dye well, wrinkles easily."},
+    {"id": "linnen", "nl": "Linnen", "en": "Linen", "ru": "Лён", "category": "fibre", "note": "Strong and cool; wrinkles are part of the charm."},
+    {"id": "wol", "nl": "Wol", "en": "Wool", "ru": "Шерсть", "category": "fibre", "note": "Warm, forgiving, steams beautifully."},
+    {"id": "zijde", "nl": "Zijde", "en": "Silk", "ru": "Шёлк", "category": "fibre", "note": "Luxurious but slippery — use fine pins."},
+    {"id": "viscose", "nl": "Viscose", "en": "Viscose / Rayon", "ru": "Вискоза", "category": "fibre", "note": "Drapey and soft; can shrink — pre-wash."},
+    {"id": "polyester", "nl": "Polyester", "en": "Polyester", "ru": "Полиэстер", "category": "fibre", "note": "Durable, doesn't breathe well. Use a lower iron temp."},
+    {"id": "spijkerstof", "nl": "Spijkerstof", "en": "Denim", "ru": "Деним", "category": "weave", "note": "Twill-woven cotton. Heavy needles required."},
+    {"id": "jersey", "nl": "Jersey", "en": "Jersey knit", "ru": "Джерси", "category": "weave", "note": "Stretchy single-knit. Use a stretch or ballpoint needle."},
+    {"id": "fleece", "nl": "Fleece", "en": "Fleece", "ru": "Флис", "category": "weave", "note": "Napped knit — doesn't fray. Great for beginners."},
+    {"id": "badstof", "nl": "Badstof", "en": "Terry cloth", "ru": "Махровая ткань", "category": "weave", "note": "Looped pile — towels and robes. Pre-wash to control shrinkage."},
+    {"id": "ribstof", "nl": "Ribstof", "en": "Ribbed knit", "ru": "Рибана", "category": "weave", "note": "Stretchy ribbed texture. Good for cuffs, collars, and hems."},
+    {"id": "voering", "nl": "Voering", "en": "Lining fabric", "ru": "Подкладка", "category": "notion", "note": "Smooth inner layer. Usually polyester or cupro."},
+    {"id": "rits", "nl": "Rits", "en": "Zipper", "ru": "Молния", "category": "notion", "note": "Comes in invisible, coil, and metal styles."},
+    {"id": "knoop", "nl": "Knoop", "en": "Button", "ru": "Пуговица", "category": "notion", "note": ""},
+    {"id": "garen", "nl": "Garen", "en": "Thread", "ru": "Нитки", "category": "notion", "note": "Match thread weight to fabric weight."},
+    {"id": "naald", "nl": "Naald", "en": "Needle", "ru": "Игла", "category": "notion", "note": "Universal, stretch, denim — choose by fabric type."},
+    {"id": "schaar", "nl": "Schaar", "en": "Scissors", "ru": "Ножницы", "category": "notion", "note": "Keep fabric shears sharp and for fabric only."},
+    {"id": "krimpvrij", "nl": "Krimpvrij", "en": "Pre-shrunk / shrink-resistant", "ru": "Несадящийся", "category": "technique", "note": "Already treated — less need to pre-wash, but still recommended."},
+    {"id": "breedte", "nl": "Breedte", "en": "Width", "ru": "Ширина", "category": "technique", "note": "Standard widths: 90cm, 140cm, 150cm. Affects how much you buy."}
+  ]
+}
