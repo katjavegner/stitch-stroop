@@ -114,6 +114,48 @@
       "tags": ["notions", "patterns", "tools"]
     },
     {
+      "id": "rechtesteek-shop",
+      "name": "Rechte Steek",
+      "shortName": "Rechte Steek",
+      "city": "Haarlem",
+      "description": "Fabrics, yarn, embroidery thread, and notions — plus workshops in tufting, needle felting, macramé, and sewing.",
+      "beforeYouGo": "Also runs a bookable workspace and a recurring knitting café (Brei Cafe). Check Instagram for workshop dates.",
+      "website": "https://rechtesteek.nl/",
+      "mapUrl": "https://www.instagram.com/rechtesteek",
+      "lat": 52.3874,
+      "lng": 4.6462,
+      "pick": false,
+      "tags": ["fabric", "yarn", "embroidery", "notions", "workshops"]
+    },
+    {
+      "id": "mooizooi",
+      "name": "MooiZooi",
+      "shortName": "MooiZooi",
+      "city": "Haarlem",
+      "description": "Creative warehouse selling fabric offcuts, cork, wood scraps, and other craft materials reclaimed from companies — priced by the basketful.",
+      "beforeYouGo": "A social enterprise — great prices on scraps and remnants. Good for experimental projects and one-offs. Bring cash and a big bag.",
+      "website": "https://mooizooi.nl/",
+      "mapUrl": "https://maps.app.goo.gl/H1wQQgTSXQ5zXt9w8",
+      "lat": 52.3874,
+      "lng": 4.6462,
+      "pick": false,
+      "tags": ["fabric", "remnants", "crafts", "upcycled"]
+    },
+    {
+      "id": "the-kind-fabric",
+      "name": "The Kind Fabric",
+      "shortName": "The Kind Fabric",
+      "city": "Online (NL)",
+      "description": "Natural and deadstock fabrics by the metre — linen, cotton, viscose — plus sewing patterns. Strong focus on sustainability.",
+      "beforeYouGo": "Free shipping in NL over €70, Belgium/Germany over €90. Free fabric samples (up to 5) available. Also sells Fibre Mood and Cousette patterns.",
+      "website": "https://thekindfabric.com/",
+      "mapUrl": null,
+      "lat": null,
+      "lng": null,
+      "pick": false,
+      "tags": ["fabric", "natural", "linen", "deadstock", "online"]
+    },
+    {
       "id": "aalsmeer-stoffen",
       "name": "Aalsmeer Stoffen & Fournituren",
       "shortName": "Aalsmeer Stoffen",
