@@ -14,6 +14,17 @@
       "image": null
     },
     {
+      "id": "drinkcoffeeandsew",
+      "name": "Threads of Kate",
+      "handle": "@drinkcoffeeandsew",
+      "platforms": [
+        {"type": "instagram", "url": "https://www.instagram.com/drinkcoffeeandsew"}
+      ],
+      "description": "Chat member — sewing projects with a relaxed, everyday-maker vibe.",
+      "group": "members",
+      "image": null
+    },
+    {
       "id": "chat-member-2",
       "name": "Naai & Zo",
       "handle": "@naaienzo",
@@ -32,6 +43,17 @@
         {"type": "website", "url": "https://blogforbettersewing.com/"}
       ],
       "description": "Vintage-inspired dressmaking, in-depth technique posts, and pattern reviews.",
+      "group": "inspo",
+      "image": null
+    },
+    {
+      "id": "solovey-family-store",
+      "name": "Solovey Family Store",
+      "handle": "@solovey_family_store",
+      "platforms": [
+        {"type": "instagram", "url": "https://www.instagram.com/solovey_family_store/"}
+      ],
+      "description": "Family-run Russian craft business making handmade bags, backpacks, and clothing. Beautiful material choices and a lovely made-to-order approach.",
       "group": "inspo",
       "image": null
     },

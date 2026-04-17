@@ -12,6 +12,26 @@
       "online": false
     },
     {
+      "id": "studio-zip",
+      "name": "Studio ZIP",
+      "city": "Den Haag",
+      "languages": ["EN", "NL"],
+      "schedule": "Weekly lessons, evenings; max 6 per group",
+      "description": "Sewing studio offering weekly lessons, private classes, workshops, and a professional fashion program. One of the few studios with dedicated English-language classes.",
+      "website": "https://www.studiozip.nl/",
+      "online": false
+    },
+    {
+      "id": "folk-and-fiber",
+      "name": "Folk + Fiber",
+      "city": "Haarlem",
+      "languages": ["EN"],
+      "schedule": "Workshops (2.5h, max 5 people) and drop-in Sewing Café sessions",
+      "description": "Bright studio in Haarlem with beginner workshops, a one-day intro to sewing, and open Sewing Café sessions where you can use their machines and serger.",
+      "website": "https://www.folkandfiber.nl/sewingclasses",
+      "online": false
+    },
+    {
       "id": "naai-atelier-amsterdam",
       "name": "Naai Atelier Amsterdam",
       "city": "Amsterdam",
