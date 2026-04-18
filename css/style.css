@@ -553,6 +553,21 @@ p:last-child {
   padding: 6px 14px;
 }
 
+.btn-social {
+  background: transparent;
+  color: var(--color-sage);
+  border: 1px solid var(--color-sage);
+  font-size: 0.8125rem;
+  padding: 6px 14px;
+  opacity: 0.85;
+}
+
+.btn-social:hover {
+  opacity: 1;
+  background: var(--color-sage);
+  color: var(--color-paper);
+}
+
 /* ============================================================
    FILTER CHIPS
    ============================================================ */

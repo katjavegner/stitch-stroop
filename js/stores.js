@@ -17,6 +17,15 @@ function escapeHTML(str) {
   return d.innerHTML;
 }
 
+const SOCIAL_LABELS = {
+  instagram: 'Instagram',
+  facebook: 'Facebook',
+  youtube: 'YouTube',
+  pinterest: 'Pinterest',
+  tiktok: 'TikTok',
+};
+function socialLabel(type) { return SOCIAL_LABELS[type] || type; }
+
 /* ---- State ---- */
 let allShops = [];
 let activeCity = 'All';
@@ -156,6 +165,9 @@ function renderShops(shops) {
     const mapsLink = shop.mapUrl
       ? `<a href="${escapeHTML(shop.mapUrl)}" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Directions</a>`
       : '';
+    const socialLinks = (shop.socials || []).map(s =>
+      `<a href="${escapeHTML(s.url)}" class="btn btn-social btn-sm" target="_blank" rel="noopener">${escapeHTML(socialLabel(s.type))}</a>`
+    ).join('');
 
     card.innerHTML = `
       ${pickBadge}
@@ -170,6 +182,7 @@ function renderShops(shops) {
       <div class="card-links">
         ${websiteLink}
         ${mapsLink}
+        ${socialLinks}
       </div>
     `;
 

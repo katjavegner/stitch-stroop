@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-04-18",
   "items": [
     {
       "id": "rechtesteek",
@@ -9,6 +9,10 @@
       "schedule": "Friday mornings, by order",
       "description": "Russian-speaking owner, small-group classes. Friendly atmosphere for all levels.",
       "website": "https://rechtesteek.nl/products/naailes-vrijdag-ochtend-per-order",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/rechtesteek/"},
+        {"type": "facebook", "url": "https://www.facebook.com/p/RechteSteek-100076325598661/"}
+      ],
       "online": false
     },
     {
@@ -19,6 +23,11 @@
       "schedule": "Weekly lessons, evenings; max 6 per group",
       "description": "Sewing studio offering weekly lessons, private classes, workshops, and a professional fashion program. One of the few studios with dedicated English-language classes.",
       "website": "https://www.studiozip.nl/",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/studiozipthehague/"},
+        {"type": "facebook", "url": "https://www.facebook.com/studiozipnaailes/"},
+        {"type": "youtube", "url": "https://www.youtube.com/channel/UC_adqUzo4K1ACZuaK23fZcg"}
+      ],
       "online": false
     },
     {
@@ -29,6 +38,10 @@
       "schedule": "Workshops (2.5h, max 5 people) and drop-in Sewing Café sessions",
       "description": "Bright studio in Haarlem with beginner workshops, a one-day intro to sewing, and open Sewing Café sessions where you can use their machines and serger.",
       "website": "https://www.folkandfiber.nl/sewingclasses",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/folkandfiber.fabrics/"},
+        {"type": "facebook", "url": "https://www.facebook.com/61555930183423"}
+      ],
       "online": false
     },
     {
@@ -39,6 +52,7 @@
       "schedule": "Weekend workshops and weekday evening classes",
       "description": "Well-equipped studio offering beginner through advanced dressmaking. Machine hire available.",
       "website": "https://naaiatelier.nl/",
+      "socials": [],
       "online": false
     }
   ]

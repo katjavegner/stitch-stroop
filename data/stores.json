@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-04-18",
   "items": [
     {
       "id": "a-boeken",
@@ -10,6 +10,10 @@
       "beforeYouGo": "Cash preferred. Closed Sundays. Weekday mornings are calm; weekends are chaos.",
       "website": "http://aboeken.nl/",
       "mapUrl": "https://maps.app.goo.gl/LwUaweB33cP7hWoq8",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/aboekenstoffen/"},
+        {"type": "facebook", "url": "https://www.facebook.com/A.Boekenstoffen"}
+      ],
       "lat": 52.3676,
       "lng": 4.9041,
       "pick": true,
@@ -24,6 +28,7 @@
       "beforeYouGo": "Small space — only a few customers at a time. Best to visit on a weekday.",
       "website": "https://destofkamer.nl/",
       "mapUrl": "https://maps.google.com/?q=De+Stofkamer+Amsterdam",
+      "socials": [],
       "lat": 52.3740,
       "lng": 4.8897,
       "pick": false,
@@ -38,6 +43,7 @@
       "beforeYouGo": "Prices are on the higher end but quality is excellent. No returns on cut fabric.",
       "website": "https://nicolettastoffen.nl/",
       "mapUrl": "https://maps.google.com/?q=Nicoletta+Stoffen+Amsterdam",
+      "socials": [],
       "lat": 52.3660,
       "lng": 4.9020,
       "pick": false,
@@ -52,6 +58,7 @@
       "beforeYouGo": "Check the remnants bin in the back — great deals on end-of-bolt pieces.",
       "website": "https://priemstoffen.nl/",
       "mapUrl": "https://maps.google.com/?q=Priem+Stoffen+Amsterdam",
+      "socials": [],
       "lat": 52.3688,
       "lng": 4.9055,
       "pick": false,
@@ -66,6 +73,7 @@
       "beforeYouGo": "Hard to find — look for the green door on Nieuwe Hoogstraat. Cash only.",
       "website": null,
       "mapUrl": "https://maps.google.com/?q=Het+Fourniturenhoekie+Amsterdam",
+      "socials": [],
       "lat": 52.3700,
       "lng": 4.9000,
       "pick": true,
@@ -80,6 +88,7 @@
       "beforeYouGo": "Closed Mondays. Owner is happy to cut samples if you're unsure.",
       "website": "https://stofenzo.nl/",
       "mapUrl": "https://maps.google.com/?q=Stof+en+Zo+Haarlem",
+      "socials": [],
       "lat": 52.3874,
       "lng": 4.6462,
       "pick": false,
@@ -94,6 +103,7 @@
       "beforeYouGo": "Parking nearby on Saturdays can be tricky. Take the tram.",
       "website": "https://bepstoffen.nl/",
       "mapUrl": "https://maps.google.com/?q=Bep+Stoffen+Den+Haag",
+      "socials": [],
       "lat": 52.0705,
       "lng": 4.3007,
       "pick": false,
@@ -108,6 +118,7 @@
       "beforeYouGo": "Staff are very knowledgeable — don't hesitate to ask for advice.",
       "website": "https://denaaiwinkel.nl/",
       "mapUrl": "https://maps.google.com/?q=De+Naaiwinkel+Den+Haag",
+      "socials": [],
       "lat": 52.0720,
       "lng": 4.3050,
       "pick": false,
@@ -121,7 +132,11 @@
       "description": "Fabrics, yarn, embroidery thread, and notions — plus workshops in tufting, needle felting, macramé, and sewing.",
       "beforeYouGo": "Also runs a bookable workspace and a recurring knitting café (Brei Cafe). Check Instagram for workshop dates.",
       "website": "https://rechtesteek.nl/",
-      "mapUrl": "https://www.instagram.com/rechtesteek",
+      "mapUrl": "https://maps.google.com/?q=Rechte+Steek+Haarlem",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/rechtesteek/"},
+        {"type": "facebook", "url": "https://www.facebook.com/p/RechteSteek-100076325598661/"}
+      ],
       "lat": 52.3874,
       "lng": 4.6462,
       "pick": true,
@@ -136,6 +151,11 @@
       "beforeYouGo": "A social enterprise — great prices on scraps and remnants. Good for experimental projects and one-offs. Bring cash and a big bag.",
       "website": "https://mooizooi.nl/",
       "mapUrl": "https://maps.app.goo.gl/H1wQQgTSXQ5zXt9w8",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/stichtingmooizooi/"},
+        {"type": "facebook", "url": "https://www.facebook.com/Mooizooi/"},
+        {"type": "pinterest", "url": "https://nl.pinterest.com/stichtingmooizooi/"}
+      ],
       "lat": 52.3874,
       "lng": 4.6462,
       "pick": false,
@@ -150,6 +170,10 @@
       "beforeYouGo": "Free shipping in NL over €70, Belgium/Germany over €90. Free fabric samples (up to 5) available. Also sells Fibre Mood and Cousette patterns.",
       "website": "https://thekindfabric.com/",
       "mapUrl": null,
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/thekindfabric/"},
+        {"type": "facebook", "url": "https://www.facebook.com/The-kind-fabric-103450369120166"}
+      ],
       "lat": null,
       "lng": null,
       "pick": false,
@@ -164,6 +188,7 @@
       "beforeYouGo": "Worth the trip — combine with a visit to the Bloemenveiling. Pin the address carefully.",
       "website": null,
       "mapUrl": "https://maps.google.com/?q=Stoffen+Aalsmeer",
+      "socials": [],
       "lat": 52.2640,
       "lng": 4.7470,
       "pick": true,
@@ -178,6 +203,10 @@
       "beforeYouGo": "Large space with continuous new arrivals — good for interior and fashion fabrics in one visit. Open Mon–Sat from 9:30.",
       "website": "https://www.kniphal.nl/",
       "mapUrl": "https://maps.google.com/?q=Kniphal+Albert+Cuypstraat+160+Amsterdam",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/kniphal/"},
+        {"type": "facebook", "url": "https://www.facebook.com/kniphal/"}
+      ],
       "lat": 52.3564,
       "lng": 4.8972,
       "pick": false,
@@ -192,6 +221,12 @@
       "beforeYouGo": "One of the most-reviewed fabric shops in the Netherlands (9.2/10). Online ordering with pickup also available.",
       "website": "https://nnstoffen.nl/",
       "mapUrl": "https://maps.google.com/?q=NN+Stoffen+Albert+Cuypstraat+146+Amsterdam",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/nnstoffen/"},
+        {"type": "facebook", "url": "https://www.facebook.com/NNStoffen"},
+        {"type": "youtube", "url": "https://www.youtube.com/channel/UCBTh554pt_4Vxt7kYzswarA"},
+        {"type": "pinterest", "url": "https://nl.pinterest.com/nnstoffen/"}
+      ],
       "lat": 52.3563,
       "lng": 4.8969,
       "pick": false,
@@ -206,6 +241,11 @@
       "beforeYouGo": "Go here for Liberty prints, silk, and high-end cottons. Prices match the quality — budget accordingly.",
       "website": "https://nanuccitessuti.nl/",
       "mapUrl": "https://maps.google.com/?q=Nanucci+Tessuti+Albert+Cuypstraat+224+Amsterdam",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/nanuccitessuti/"},
+        {"type": "facebook", "url": "https://www.facebook.com/p/Nanucci-Tessuti-100063672145185/"},
+        {"type": "pinterest", "url": "https://www.pinterest.com/nanuccitessuti/"}
+      ],
       "lat": 52.3561,
       "lng": 4.8984,
       "pick": false,
@@ -220,6 +260,7 @@
       "beforeYouGo": "No website. If you're making anything festive or special-occasion, this is your shop. Phone: +31 20 679 9600.",
       "website": null,
       "mapUrl": "https://maps.google.com/?q=Silk+Route+Albert+Cuypstraat+222+Amsterdam",
+      "socials": [],
       "lat": 52.3561,
       "lng": 4.8983,
       "pick": false,
@@ -234,6 +275,7 @@
       "beforeYouGo": "No website — visit in person. Open Mon–Sat approx. 10:30–17:00. Good for affordable dress fabrics.",
       "website": null,
       "mapUrl": "https://maps.google.com/?q=Jefertti+Stoffen+Albert+Cuypstraat+252+Amsterdam",
+      "socials": [],
       "lat": 52.3560,
       "lng": 4.8991,
       "pick": false,
@@ -248,6 +290,7 @@
       "beforeYouGo": "Not a dressmaking shop — purely curtain and interior fabric. In business since the late 1970s. Phone: +31 20 671 1591.",
       "website": "https://www.voordeelgordijnen.nl/",
       "mapUrl": "https://maps.google.com/?q=Hennie+Dost+Albert+Cuypstraat+268+Amsterdam",
+      "socials": [],
       "lat": 52.3559,
       "lng": 4.8993,
       "pick": false,
@@ -262,6 +305,10 @@
       "beforeYouGo": "Open Tue–Sat 10:30–17:00. Run by Gina, who also teaches sewing workshops in the space. Small but beautifully curated.",
       "website": "https://www.folkandfiber.nl/",
       "mapUrl": "https://maps.google.com/?q=Folk+Fiber+Schagchelstraat+27+Haarlem",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/folkandfiber.fabrics/"},
+        {"type": "facebook", "url": "https://www.facebook.com/61555930183423"}
+      ],
       "lat": 52.3808,
       "lng": 4.6368,
       "pick": false,
@@ -276,6 +323,10 @@
       "beforeYouGo": "Open Tue–Sat 10:00–18:00, Sun 12:30–17:30. Also offers bespoke tailoring and custom curtains in the same space.",
       "website": "https://www.tessuti.nl/",
       "mapUrl": "https://maps.google.com/?q=Tessuti+Papestraat+29+Den+Haag",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/tessutistoffen/"},
+        {"type": "facebook", "url": "https://www.facebook.com/tessutiStoffen"}
+      ],
       "lat": 52.0764,
       "lng": 4.3144,
       "pick": false,
@@ -290,6 +341,10 @@
       "beforeYouGo": "Hosts free Craft Nights on the first Friday of every month — a good way to meet local makers. Open Tue–Sat 10:00–17:00.",
       "website": "https://www.crossandwoods.com/",
       "mapUrl": "https://maps.google.com/?q=Cross+Woods+Westeinde+73a+Den+Haag",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/crossandwoods/"},
+        {"type": "facebook", "url": "https://www.facebook.com/crossandwoods/"}
+      ],
       "lat": 52.0779,
       "lng": 4.3109,
       "pick": false,
@@ -304,6 +359,11 @@
       "beforeYouGo": "Open Tue–Sat; closes early on Wednesdays (14:00). Free NL shipping over €100. Good range of deadstock and recycled fabrics.",
       "website": "https://www.vandomburgtextiel.nl/",
       "mapUrl": "https://maps.google.com/?q=Van+Domburg+Textiel+Thomsonlaan+76a+Den+Haag",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/vandomburgtextiel/"},
+        {"type": "facebook", "url": "https://www.facebook.com/vandomburgtextiel"},
+        {"type": "pinterest", "url": "https://nl.pinterest.com/domburgtextiel/"}
+      ],
       "lat": 52.0458,
       "lng": 4.3049,
       "pick": false,
@@ -318,6 +378,10 @@
       "beforeYouGo": "Based in Rotselaar, Belgium. Physical showroom open Wed–Fri 10:00–16:30. Shipping to NL takes 3–10 days via DHL.",
       "website": "https://thefabricsales.com/",
       "mapUrl": "https://maps.google.com/?q=The+Fabric+Sales+Wingepark+55d+Rotselaar+Belgium",
+      "socials": [
+        {"type": "instagram", "url": "https://www.instagram.com/thefabricsales/"},
+        {"type": "facebook", "url": "https://www.facebook.com/thefabricsales"}
+      ],
       "lat": 50.9530,
       "lng": 4.7167,
       "pick": false,

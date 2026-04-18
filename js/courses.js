@@ -16,6 +16,15 @@ function escapeHTML(str) {
   return d.innerHTML;
 }
 
+const SOCIAL_LABELS = {
+  instagram: 'Instagram',
+  facebook: 'Facebook',
+  youtube: 'YouTube',
+  pinterest: 'Pinterest',
+  tiktok: 'TikTok',
+};
+function socialLabel(type) { return SOCIAL_LABELS[type] || type; }
+
 let allCourses = [];
 let activeCity = 'All';
 let activeLang = 'All';
@@ -95,6 +104,9 @@ function renderCourses(courses) {
     const websiteLink = course.website
       ? `<a href="${escapeHTML(course.website)}" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Visit website →</a>`
       : '';
+    const socialLinks = (course.socials || []).map(s =>
+      `<a href="${escapeHTML(s.url)}" class="btn btn-social btn-sm" target="_blank" rel="noopener">${escapeHTML(socialLabel(s.type))}</a>`
+    ).join('');
 
     card.innerHTML = `
       <p class="card-city">${escapeHTML(course.city)}</p>
@@ -102,7 +114,7 @@ function renderCourses(courses) {
       <div class="badge-row">${langBadges}</div>
       <p class="schedule-line">${escapeHTML(course.schedule)}</p>
       <p class="card-description">${escapeHTML(course.description)}</p>
-      <div class="card-links">${websiteLink}</div>
+      <div class="card-links">${websiteLink}${socialLinks}</div>
     `;
 
     grid.appendChild(card);
